@@ -13,7 +13,10 @@
             <a href="index.html"><img src="images/Logo 1.png" alt="Delites Logo" /></a>
             <div>
                 <!-- <h1>Delites</h1> -->
-                <nav>
+                <button class="burger" aria-label="Open navigation" style="display:none;">
+                    <img src="images/burger.png" alt="Menu" style="width:32px;height:32px;display:block;">
+                </button>
+                <nav class="mobile-nav">
                     <a href="index.html">Home</a>
                     <a href="menu.html">Menu</a>
                     <div class="dropdown" style="display:inline-block;position:relative;">
@@ -46,49 +49,69 @@
         <!-- Menu section removed from index.html -->
     </main>
     <footer>
-        <p>&copy; 2025 Delites V2.2</p>
+        <p>&copy; 2025 Delites V2.4</p>
     </footer>
     <script>
-    // Delivery dropdown
-    const deliveryDropdown = document.querySelector('.dropdown > #delivery-link').parentElement;
-    const deliveryMenu = document.getElementById('delivery-menu');
-    document.getElementById('delivery-link').addEventListener('click', function(e) {
-        e.preventDefault();
-        deliveryDropdown.classList.toggle('open');
-    });
-    document.addEventListener('click', function(e) {
-        if (!deliveryDropdown.contains(e.target)) {
-            deliveryDropdown.classList.remove('open');
-        }
-    });
+        // Burger menu toggle
+        const burger = document.querySelector('.burger');
+        const mobileNav = document.querySelector('.mobile-nav');
+        burger.addEventListener('click', function() {
+            mobileNav.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+            if (!burger.contains(e.target) && !mobileNav.contains(e.target)) {
+                mobileNav.classList.remove('open');
+            }
+        });
+        // Only close nav for regular links, not dropdown triggers
+        mobileNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                if (link.id === 'delivery-link' || link.id === 'socials-link') {
+                    e.preventDefault(); // Let dropdown JS handle
+                } else {
+                    mobileNav.classList.remove('open');
+                }
+            });
+        });
 
-    // Socials dropdown
-    const socialsDropdown = document.querySelector('.dropdown > #socials-link').parentElement;
-    const socialsMenu = document.getElementById('socials-menu');
-    document.getElementById('socials-link').addEventListener('click', function(e) {
-        e.preventDefault();
-        socialsDropdown.classList.toggle('open');
-    });
-    document.addEventListener('click', function(e) {
-        if (!socialsDropdown.contains(e.target)) {
-            socialsDropdown.classList.remove('open');
-        }
-    });
-    // Simple gallery image rotator
-    const galleryImages = [
-        'images/gallery/1.png',
-        'images/gallery/2.png'
-    ];
-    let galleryIndex = 0;
-    const galleryImg = document.getElementById('gallery-img');
-    setInterval(() => {
-        galleryIndex = (galleryIndex + 1) % galleryImages.length;
-        galleryImg.style.opacity = 0;
-        setTimeout(() => {
-            galleryImg.src = galleryImages[galleryIndex];
-            galleryImg.style.opacity = 1;
-        }, 500);
-    }, 3500);
-    </script>
+        // Delivery dropdown
+        const deliveryDropdown = document.querySelector('.dropdown > #delivery-link').parentElement;
+        document.getElementById('delivery-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            deliveryDropdown.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+            if (!deliveryDropdown.contains(e.target)) {
+                deliveryDropdown.classList.remove('open');
+            }
+        });
+        // Socials dropdown
+        const socialsDropdown = document.querySelector('.dropdown > #socials-link').parentElement;
+        document.getElementById('socials-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            socialsDropdown.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+            if (!socialsDropdown.contains(e.target)) {
+                socialsDropdown.classList.remove('open');
+            }
+        });
+        // Gallery image rotator (leave this as you had it)
+        const galleryImages = [
+            'images/gallery/1.png',
+            'images/gallery/2.png'
+        ];
+        let galleryIndex = 0;
+        const galleryImg = document.getElementById('gallery-img');
+        setInterval(() => {
+            galleryIndex = (galleryIndex + 1) % galleryImages.length;
+            galleryImg.style.opacity = 0;
+            setTimeout(() => {
+                galleryImg.src = galleryImages[galleryIndex];
+                galleryImg.style.opacity = 1;
+            }, 500);
+        }, 3500);
+        </script>
+        
 </body>
 </html>

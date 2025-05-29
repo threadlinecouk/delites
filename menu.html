@@ -12,7 +12,10 @@
             <a href="index.html"><img src="images/Logo 1.png" alt="Delites Logo" /></a>
             <div>
                 <!-- <h1>Delites</h1> -->
-                <nav>
+                <button class="burger" aria-label="Open navigation" style="display:none;">
+                    <img src="images/burger.png" alt="Menu" style="width:32px;height:32px;display:block;">
+                </button>
+                <nav class="mobile-nav">
                     <a href="index.html">Home</a>
                     <a href="menu.html">Menu</a>
                     <div class="dropdown" style="display:inline-block;position:relative;">
@@ -45,28 +48,49 @@
         <p>&copy; 2025 Delites</p>
     </footer>
     <script>
-    // Simple JS to toggle the delivery submenu
-    const deliveryLink = document.getElementById('delivery-link');
-    const deliveryMenu = document.getElementById('delivery-menu');
-    deliveryLink.addEventListener('click', function(e) {
-        e.preventDefault();
-        deliveryMenu.style.display = deliveryMenu.style.display === 'block' ? 'none' : 'block';
+    // Burger menu toggle (leave this as you had it)
+
+    const burger = document.querySelector('.burger');
+    const mobileNav = document.querySelector('.mobile-nav');
+    burger.addEventListener('click', function() {
+        mobileNav.classList.toggle('open');
     });
     document.addEventListener('click', function(e) {
-        if (!deliveryLink.contains(e.target) && !deliveryMenu.contains(e.target)) {
-            deliveryMenu.style.display = 'none';
+        if (!burger.contains(e.target) && !mobileNav.contains(e.target)) {
+            mobileNav.classList.remove('open');
+        }
+    });
+    // Only close nav for regular links, not dropdown triggers
+    mobileNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            if (link.id === 'delivery-link' || link.id === 'socials-link') {
+                e.preventDefault(); // Let dropdown JS handle
+            } else {
+                mobileNav.classList.remove('open');
+            }
+        });
+    });
+
+    // Delivery dropdown
+    const deliveryDropdown = document.querySelector('.dropdown > #delivery-link').parentElement;
+    document.getElementById('delivery-link').addEventListener('click', function(e) {
+        e.preventDefault();
+        deliveryDropdown.classList.toggle('open');
+    });
+    document.addEventListener('click', function(e) {
+        if (!deliveryDropdown.contains(e.target)) {
+            deliveryDropdown.classList.remove('open');
         }
     });
     // Socials dropdown
-    const socialsLink = document.getElementById('socials-link');
-    const socialsMenu = document.getElementById('socials-menu');
-    socialsLink.addEventListener('click', function(e) {
+    const socialsDropdown = document.querySelector('.dropdown > #socials-link').parentElement;
+    document.getElementById('socials-link').addEventListener('click', function(e) {
         e.preventDefault();
-        socialsMenu.style.display = socialsMenu.style.display === 'block' ? 'none' : 'block';
+        socialsDropdown.classList.toggle('open');
     });
     document.addEventListener('click', function(e) {
-        if (!socialsLink.contains(e.target) && !socialsMenu.contains(e.target)) {
-            socialsMenu.style.display = 'none';
+        if (!socialsDropdown.contains(e.target)) {
+            socialsDropdown.classList.remove('open');
         }
     });
     </script>
