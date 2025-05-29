@@ -46,31 +46,32 @@
         <!-- Menu section removed from index.html -->
     </main>
     <footer>
-        <p>&copy; 2025 Delites V2.1</p>
+        <p>&copy; 2025 Delites V2.2</p>
     </footer>
     <script>
-    // Simple JS to toggle the delivery submenu
-    const deliveryLink = document.getElementById('delivery-link');
+    // Delivery dropdown
+    const deliveryDropdown = document.querySelector('.dropdown > #delivery-link').parentElement;
     const deliveryMenu = document.getElementById('delivery-menu');
-    deliveryLink.addEventListener('click', function(e) {
+    document.getElementById('delivery-link').addEventListener('click', function(e) {
         e.preventDefault();
-        deliveryMenu.style.display = deliveryMenu.style.display === 'block' ? 'none' : 'block';
+        deliveryDropdown.classList.toggle('open');
     });
     document.addEventListener('click', function(e) {
-        if (!deliveryLink.contains(e.target) && !deliveryMenu.contains(e.target)) {
-            deliveryMenu.style.display = 'none';
+        if (!deliveryDropdown.contains(e.target)) {
+            deliveryDropdown.classList.remove('open');
         }
     });
+
     // Socials dropdown
-    const socialsLink = document.getElementById('socials-link');
+    const socialsDropdown = document.querySelector('.dropdown > #socials-link').parentElement;
     const socialsMenu = document.getElementById('socials-menu');
-    socialsLink.addEventListener('click', function(e) {
+    document.getElementById('socials-link').addEventListener('click', function(e) {
         e.preventDefault();
-        socialsMenu.style.display = socialsMenu.style.display === 'block' ? 'none' : 'block';
+        socialsDropdown.classList.toggle('open');
     });
     document.addEventListener('click', function(e) {
-        if (!socialsLink.contains(e.target) && !socialsMenu.contains(e.target)) {
-            socialsMenu.style.display = 'none';
+        if (!socialsDropdown.contains(e.target)) {
+            socialsDropdown.classList.remove('open');
         }
     });
     // Simple gallery image rotator
