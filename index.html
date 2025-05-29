@@ -12,8 +12,9 @@
         <div class="header-content">
             <a href="index.html"><img src="images/Logo 1.png" alt="Delites Logo" /></a>
             <div>
-                <h1>Delites</h1>
+                <!-- <h1>Delites</h1> -->
                 <nav>
+                    <a href="index.html">Home</a>
                     <a href="menu.html">Menu</a>
                     <div class="dropdown" style="display:inline-block;position:relative;">
                         <a href="#" id="delivery-link">Delivery</a>
@@ -36,6 +37,12 @@
         </div>
     </header>
     <main>
+        <section id="gallery-section" style="text-align:center;margin-bottom:48px;">
+            <h2>Gallery</h2>
+            <div id="gallery" style="max-width:600px;margin:0 auto;">
+                <img id="gallery-img" src="images/gallery/1.png" alt="Gallery Image" style="width:100%;border-radius:18px;box-shadow:0 2px 16px rgba(100,150,220,0.12);transition:opacity 0.5s;">
+            </div>
+        </section>
         <!-- Menu section removed from index.html -->
     </main>
     <footer>
@@ -66,6 +73,21 @@
             socialsMenu.style.display = 'none';
         }
     });
+    // Simple gallery image rotator
+    const galleryImages = [
+        'images/gallery/1.png',
+        'images/gallery/2.png'
+    ];
+    let galleryIndex = 0;
+    const galleryImg = document.getElementById('gallery-img');
+    setInterval(() => {
+        galleryIndex = (galleryIndex + 1) % galleryImages.length;
+        galleryImg.style.opacity = 0;
+        setTimeout(() => {
+            galleryImg.src = galleryImages[galleryIndex];
+            galleryImg.style.opacity = 1;
+        }, 500);
+    }, 3500);
     </script>
 </body>
 </html>
