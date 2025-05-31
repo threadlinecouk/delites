@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Delites</title>
+    <title>Location – Delites</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -12,7 +11,6 @@
         <div class="header-content">
             <a href="index.html"><img src="images/Logo 1.png" alt="Delites Logo" class="logo" /></a>
             <div>
-                <!-- <h1>Delites</h1> -->
                 <button class="burger" aria-label="Open navigation" style="display:none;">
                     <img src="images/burger.png" alt="Menu" style="width:32px;height:32px;display:block;">
                 </button>
@@ -34,27 +32,33 @@
                             <a href="https://tiktok.com/@delitesuk" target="_blank">TikTok</a>
                         </div>
                     </div>
-                    <!-- Add more links as needed -->
                     <a href="location.html">Location</a>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section id="gallery-section" style="text-align:center;margin-bottom:48px;">
-            <h2>Gallery</h2>
-            <div id="gallery" style="max-width:600px;margin:0 auto;">
-                <img id="gallery-img" src="images/gallery/1.jpg" alt="Gallery Image" style="width:100%;border-radius:18px;box-shadow:0 2px 16px rgba(100,150,220,0.12);transition:opacity 0.5s;">
-                <div>
-                    <button id="prev-button">Previous</button>
-                    <button id="next-button">Next</button>
-                </div>
+        <main>
+            <h2 style="text-align:center; color:#ee7ebe;">Our Location</h2>
+            <div style="max-width:800px; margin:0 auto;">
+                <iframe
+                  src="https://www.google.com/maps?q=W+Ashton+St,+Salford+M50+2GR&output=embed"
+                  width="100%"
+                  height="400"
+                  style="border:0; border-radius:24px; box-shadow:0 2px 16px rgba(100, 150, 220, 0.12); margin-top:32px;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p style="text-align:center; margin-top:24px; font-size:1.2rem;">
+                    Address: Delties, W Ashton St, Salford M50 2GR
+                </p>
             </div>
-        </section>
-        <!-- Menu section removed from index.html -->
+        </main>
+        <!-- Page intentionally left blank -->
     </main>
     <footer>
-        <p>&copy; 2025 Delites V2.5</p>
+        <p>&copy; 2025 Delites</p>
     </footer>
     <script>
         // Burger menu toggle
@@ -72,13 +76,12 @@
         mobileNav.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', (e) => {
                 if (link.id === 'delivery-link' || link.id === 'socials-link') {
-                    e.preventDefault(); // Let dropdown JS handle
+                    e.preventDefault();
                 } else {
                     mobileNav.classList.remove('open');
                 }
             });
         });
-
         // Delivery dropdown
         const deliveryDropdown = document.querySelector('.dropdown > #delivery-link').parentElement;
         document.getElementById('delivery-link').addEventListener('click', function(e) {
@@ -101,59 +104,6 @@
                 socialsDropdown.classList.remove('open');
             }
         });
-        // Gallery image rotator (leave this as you had it)
-        const galleryImages = [
-            'images/gallery/1.jpg',
-            'images/gallery/2.jpg',
-            'images/gallery/3.jpg',
-            'images/gallery/4.jpg',
-            'images/gallery/5.jpg',
-            'images/gallery/6.jpg',
-            'images/gallery/7.jpg',
-            'images/gallery/8.jpg',
-            'images/gallery/9.jpg',
-            'images/gallery/10.jpg',
-            'images/gallery/11.jpg',
-            'images/gallery/12.jpg',
-            'images/gallery/13.jpg',
-            'images/gallery/14.jpg',
-            'images/gallery/15.jpg',
-            'images/gallery/16.jpg',
-            'images/gallery/17.jpg',
-            'images/gallery/18.jpg',
-            'images/gallery/19.jpg'
-            
-            
-        ];
-        let galleryIndex = 0;
-        const galleryImg = document.getElementById('gallery-img');
-
-        // Function to update the gallery image
-        function updateGalleryImage() {
-            galleryImg.style.opacity = 0;
-            setTimeout(() => {
-                galleryImg.src = galleryImages[galleryIndex];
-                galleryImg.style.opacity = 1;
-            }, 500);
-        }
-
-        // Set interval for automatic rotation
-        setInterval(() => {
-            galleryIndex = (galleryIndex + 1) % galleryImages.length;
-            updateGalleryImage();
-        }, 3500);
-
-        // Button event listeners
-        document.getElementById('prev-button').addEventListener('click', () => {
-            galleryIndex = (galleryIndex - 1 + galleryImages.length) % galleryImages.length;
-            updateGalleryImage();
-        });
-
-        document.getElementById('next-button').addEventListener('click', () => {
-            galleryIndex = (galleryIndex + 1) % galleryImages.length;
-            updateGalleryImage();
-        });
-        </script>
-        
+    </script>
 </body>
 </html>
