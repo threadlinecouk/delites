@@ -49,9 +49,13 @@
                             <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£5.00</text>
                         </g>
                         <g transform="matrix(0.12,0,0,0.12,65.7168,856.557)">
-                            <g transform="matrix(66.6667,0,0,66.6667,1655.59,0)">
+                            <g transform="matrix(66.6667,0,0,66.6667,49.3333,0)">
                             </g>
-                            <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">2<tspan x="33px 49.333px 74.944px 104.201px 137.201px 170.201px 203.201px 228.811px 245.145px 278.145px 296.333px 312.667px 341.923px 374.923px 407.923px 433.534px 449.867px 479.124px 512.124px 545.124px 563.313px 592.569px 621.826px 638.159px 671.159px 689.348px 705.681px 723.87px 753.126px 782.383px 798.716px 827.973px 851.109px 880.366px 913.366px 961.177px 977.51px 1021.64px 1039.83px 1058.02px 1091.02px 1107.35px 1125.54px 1148.68px 1177.94px 1203.55px 1236.55px 1252.88px 1297.01px 1330.01px 1348.2px 1381.2px 1414.2px 1443.46px 1476.46px 1492.79px 1522.05px 1545.18px 1574.44px 1607.44px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px "> scoops of your choice of ice cream with fresh whipped cream</tspan></text>
+                            <g transform="matrix(66.6667,0,0,66.6667,65.8333,0)">
+                            </g>
+                            <g transform="matrix(66.6667,0,0,66.6667,1662.98,0)">
+                            </g>
+                            <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">1<tspan x="33px 49.333px 82.333px 115.333px 144.59px 177.59px 210.59px 236.201px 252.534px 285.534px 303.723px 320.056px 349.313px 382.313px 415.313px 440.923px 457.257px 486.513px 519.513px 552.513px 570.702px 599.958px 629.215px 645.548px 678.548px 696.737px 713.07px 731.259px 760.516px 789.772px 806.105px 835.362px 858.499px 887.755px 920.755px 968.566px 984.9px 1029.03px 1047.22px 1065.41px 1098.41px 1114.74px 1132.93px 1156.07px 1185.33px 1210.94px 1243.94px 1260.27px 1304.4px 1337.4px 1355.59px 1388.59px 1421.59px 1450.85px 1483.85px 1500.18px 1529.44px 1552.57px 1581.83px 1614.83px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px "> ﬂavour of your choice of ice cream with fresh whipped cream</tspan></text>
                         </g>
                     </g>
                     <g id="Delite_Special" transform="matrix(1,0,0,1,0,24.122)">
@@ -258,8 +262,8 @@
                     </g>
                 </g>
                 <g id="Cookie_Dough" transform="matrix(8.33333,0,0,8.33333,8.33208,-298.594)">
-                    <g transform="matrix(1,0,0,1.04537,-1.06581e-14,-29.0623)">
-                        <path d="M370,545.639L370,844.361C370,858.512 357.99,870 343.198,870L76.802,870C62.01,870 50,858.512 50,844.361L50,545.639C50,531.488 62.01,520 76.802,520L343.198,520C357.99,520 370,531.488 370,545.639Z" style="fill:rgb(255,208,230);fill-opacity:0.83;"/>
+                    <g transform="matrix(1,0,0,1.10128,-2.66454e-15,-58.138)">
+                        <path d="M370,544.337L370,845.663C370,859.095 357.99,870 343.198,870L76.802,870C62.01,870 50,859.095 50,845.663L50,544.337C50,530.905 62.01,520 76.802,520L343.198,520C357.99,520 370,530.905 370,544.337Z" style="fill:rgb(255,208,230);fill-opacity:0.83;"/>
                     </g>
                     <g transform="matrix(1,0,0,1,209.189,571.983)">
                         <text x="-48.676px" y="0px" style="font-family:'TimesNewRomanPS-BoldMT', 'Times New Roman', serif;font-weight:700;font-size:16px;fill:rgb(176,42,107);">Cookie Dough</text>
@@ -332,7 +336,7 @@
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">Ferrero Rocher Cookie Dough</text>
                         </g>
                         <g transform="matrix(1,0,0,1,355,725)">
-                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.00</text>
+                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.50</text>
                         </g>
                         <g transform="matrix(0.449009,0,0,0.449009,65.1189,733.737)">
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:17.817px;">Ho<tspan x="21.597px 26.458px 30.823px 38.642px 47.462px 55.281px 67.075px 74.894px 79.26px 90.054px 97.873px 102.734px 111.553px 116.414px 125.234px 134.053px 138.418px 146.237px 155.057px 163.876px 171.695px 180.514px 185.376px 194.195px 199.056px 206.875px 211.24px 219.059px 227.878px 236.698px 244.517px 249.378px 257.197px 261.562px 270.381px 279.201px 288.02px 296.84px 305.659px 310.024px 316.869px 324.688px 331.532px 339.351px 347.17px 355.99px 360.355px 372.15px 377.011px 381.872px 390.691px 395.056px 402.875px 409.72px 418.539px 425.384px 434.203px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">t chewy Belgian chocolate cookie dough served with crushe</tspan>d</text>
@@ -346,7 +350,7 @@
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">Magical Oreo Cookie Dough</text>
                         </g>
                         <g transform="matrix(1,0,0,1,355,755)">
-                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.00</text>
+                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.50</text>
                         </g>
                         <g transform="matrix(0.12,0,0,0.12,63.9353,763.908)">
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">H<tspan x="47.811px 80.811px 99px 115.333px 144.59px 177.59px 206.846px 250.979px 280.236px 296.569px 336.958px 366.215px 384.404px 417.404px 435.592px 468.592px 501.592px 517.926px 547.182px 580.182px 613.182px 642.439px 675.439px 693.628px 726.628px 744.816px 774.073px 790.406px 819.663px 852.663px 885.663px 914.919px 933.108px 962.365px 978.698px 1011.7px 1044.7px 1077.7px 1110.7px 1143.7px 1160.03px 1185.64px 1214.9px 1240.51px 1269.77px 1299.02px 1332.02px 1348.36px 1392.49px 1410.68px 1428.87px 1461.87px 1478.2px 1507.46px 1533.07px 1566.07px 1591.68px 1624.68px 1653.93px 1686.93px 1703.27px 1751.08px 1774.22px 1803.47px 1836.47px 1852.81px 1885.81px 1918.81px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">ot chewy Belgian chocolate cookie dough served with crushed Oreo and</tspan></text>
@@ -360,7 +364,7 @@
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">Kinder Bueno Cookie Dough</text>
                         </g>
                         <g transform="matrix(1,0,0,1,355,785)">
-                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.00</text>
+                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.50</text>
                         </g>
                         <g transform="matrix(0.12,0,0,0.12,65.2923,793.627)">
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">H<tspan x="47.811px 80.811px 99px 115.333px 144.59px 177.59px 206.846px 250.979px 280.236px 296.569px 336.958px 366.215px 384.404px 417.404px 435.592px 468.592px 501.592px 517.926px 547.182px 580.182px 613.182px 642.439px 675.439px 693.628px 726.628px 744.816px 774.073px 790.406px 819.663px 852.663px 885.663px 914.919px 933.108px 962.365px 978.698px 1011.7px 1044.7px 1077.7px 1110.7px 1143.7px 1160.03px 1185.64px 1214.9px 1240.51px 1269.77px 1299.02px 1332.02px 1348.36px 1392.49px 1410.68px 1428.87px 1461.87px 1478.2px 1507.46px 1525.64px 1558.64px 1591.64px 1620.9px 1646.51px 1662.85px 1695.85px 1728.85px 1758.1px 1791.1px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">ot chewy Belgian chocolate cookie dough served with kinder bueno</tspan></text>
@@ -374,7 +378,7 @@
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">White Kinder Bueno Cookie Dough</text>
                         </g>
                         <g transform="matrix(1,0,0,1,355,815)">
-                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.00</text>
+                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.50</text>
                         </g>
                         <g transform="matrix(0.12,0,0,0.12,65.2923,823.898)">
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">H<tspan x="47.811px 80.811px 99px 115.333px 144.59px 177.59px 206.846px 250.979px 280.236px 296.569px 336.958px 366.215px 384.404px 417.404px 435.592px 468.592px 501.592px 517.926px 562.059px 595.059px 613.247px 631.436px 660.693px 677.026px 706.283px 739.283px 772.283px 801.539px 834.539px 852.728px 885.728px 903.917px 933.173px 949.507px 978.763px 1011.76px 1044.76px 1074.02px 1092.21px 1121.46px 1137.8px 1170.8px 1203.8px 1236.8px 1269.8px 1302.8px 1319.13px 1344.74px 1374px 1399.61px 1428.87px 1458.12px 1491.12px 1507.46px 1551.59px 1569.78px 1587.97px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">ot chewy Belgian white chocolate cookie dough served with</tspan></text>
@@ -392,7 +396,7 @@
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">Lotus Biscoﬀ Cookie Dough</text>
                         </g>
                         <g transform="matrix(1,0,0,1,355,845)">
-                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.00</text>
+                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£7.50</text>
                         </g>
                         <g transform="matrix(0.12,0,0,0.12,65.2923,853.737)">
                             <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">H<tspan x="47.811px 80.811px 99px 115.333px 144.59px 177.59px 206.846px 250.979px 280.236px 296.569px 336.958px 366.215px 384.404px 417.404px 435.592px 468.592px 501.592px 517.926px 547.182px 580.182px 613.182px 642.439px 675.439px 693.628px 726.628px 744.816px 774.073px 790.406px 819.663px 852.663px 885.663px 914.919px 933.108px 962.365px 978.698px 1011.7px 1044.7px 1077.7px 1110.7px 1143.7px 1160.03px 1185.64px 1214.9px 1240.51px 1269.77px 1299.02px 1332.02px 1348.36px 1392.49px 1410.68px 1428.87px 1461.87px 1478.2px 1507.46px 1533.07px 1566.07px 1591.68px 1624.68px 1653.93px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">ot chewy Belgian chocolate cookie dough served with crushed</tspan></text>
@@ -409,7 +413,21 @@
                             <text x="0px" y="69.499px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">l<tspan x="18.189px 51.189px 69.378px 102.378px 127.988px 144.322px 177.322px 195.51px 221.121px 250.378px 283.378px 320.056px 336.389px 369.389px 402.389px 435.389px 451.723px 484.723px 502.911px 528.522px 557.779px 590.779px 627.457px 643.79px 669.401px 702.401px 735.401px 764.658px " y="69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px ">otus biscoﬀ and biscoﬀ sauce</tspan></text>
                         </g>
                     </g>
-                    <g transform="matrix(0.449009,0,0,0.449009,120.141,870.702)">
+                    <g id="Dubai-Cookie-Dough" serif:id="Dubai Cookie Dough" transform="matrix(1,0,0,1,0,21.7098)">
+                        <g transform="matrix(1,0,0,1,65,845)">
+                            <text x="0px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">Dubai  Cookie Dough</text>
+                        </g>
+                        <g transform="matrix(1,0,0,1,355,845)">
+                            <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£9.50</text>
+                        </g>
+                        <g transform="matrix(0.12,0,0,0.12,65.2923,853.737)">
+                            <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">H<tspan x="47.811px 80.811px 99px 115.333px 144.59px 177.59px 206.846px 250.979px 280.236px 296.569px 336.958px 366.215px 384.404px 417.404px 435.592px 468.592px 501.592px 517.926px 547.182px 580.182px 613.182px 642.439px 675.439px 693.628px 726.628px 744.816px 774.073px 790.406px 819.663px 852.663px 885.663px 914.919px 933.108px 962.365px 978.698px 1011.7px 1044.7px 1077.7px 1110.7px 1143.7px 1160.03px 1185.64px 1214.9px 1240.51px 1269.77px 1299.02px 1332.02px 1348.36px 1392.49px 1410.68px 1428.87px 1461.87px 1478.2px 1522.33px 1555.33px 1588.33px 1621.33px 1639.52px 1668.78px 1701.78px 1718.11px 1747.37px 1780.37px 1813.37px 1842.62px 1875.62px 1893.81px 1926.81px 1945px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">ot chewy Belgian chocolate cookie dough served with Kunafeh chocolate</tspan></text>
+                            <g transform="matrix(66.6667,0,0,66.6667,1090.25,69.4987)">
+                            </g>
+                            <text x="0px" y="69.499px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">s<tspan x="25.611px 58.611px 91.611px 120.867px 150.124px 166.457px 182.79px 215.79px 233.979px 259.59px 277.779px 310.779px 340.035px 373.035px 391.224px 424.224px 440.557px 466.168px 499.168px 532.168px 561.424px 590.681px 607.014px 640.014px 673.014px 706.014px 722.348px 755.348px 773.536px 799.147px 817.336px 850.336px 879.592px 912.592px 930.781px 963.781px 980.115px 1013.12px 1046.12px 1064.3px " y="69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px ">auce, pistachio sauce and pistachio nuts</tspan></text>
+                        </g>
+                    </g>
+                    <g transform="matrix(0.449009,0,0,0.449009,121.369,892.644)">
                         <g transform="matrix(20.0441,0,0,20.0441,194.268,0)">
                         </g>
                         <g transform="matrix(20.0441,0,0,20.0441,199.782,0)">
@@ -432,8 +450,8 @@
                     </g>
                 </g>
                 <g id="Dubai-Treat" serif:id="Dubai Treat" transform="matrix(8.33333,0,0,4.04574,2.27374e-13,5062.15)">
-                    <g transform="matrix(1,0,0,1.00232,-9.32587e-15,8.93974)">
-                        <path d="M370,575.079L370,814.921C370,845.32 357.99,870 343.198,870L76.802,870C62.01,870 50,845.32 50,814.921L50,575.079C50,544.68 62.01,520 76.802,520L343.198,520C357.99,520 370,544.68 370,575.079Z" style="fill:rgb(255,208,230);fill-opacity:0.83;"/>
+                    <g transform="matrix(1,0,0,0.974513,8.88178e-15,33.1277)">
+                        <path d="M370,576.651L370,813.349C370,844.616 357.99,870 343.198,870L76.802,870C62.01,870 50,844.616 50,813.349L50,576.651C50,545.384 62.01,520 76.802,520L343.198,520C357.99,520 370,545.384 370,576.651Z" style="fill:rgb(255,208,230);fill-opacity:0.83;"/>
                     </g>
                     <g id="Dubai-Chocolat-Strawberry-Treat" serif:id="Dubai Chocolat Strawberry Treat" transform="matrix(1,0,0,2.05978,0.285645,-966.136)">
                         <g transform="matrix(1,0,0,1,65,845)">
@@ -479,7 +497,7 @@
                             <text x="0px" y="69.499px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">p<tspan x="33px 51.189px 76.799px 94.988px 127.988px 157.245px 190.245px 208.434px 241.434px 257.767px 283.378px 316.378px 349.378px 378.634px 407.891px 424.224px 457.224px 490.224px 523.224px 539.557px 572.557px 590.746px 616.357px 634.546px 667.546px 696.802px 729.802px 747.991px 780.991px 797.324px 830.324px 863.324px 881.513px " y="69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px ">istachio sauce and pistachio nuts</tspan></text>
                         </g>
                     </g>
-                    <g transform="matrix(0.0419878,0,0,0.0864856,188.502,539.874)">
+                    <g transform="matrix(0.0419878,0,0,0.0864856,188.502,540.868)">
                         <use xlink:href="#_Image10" x="0" y="0" width="1024px" height="1024px"/>
                     </g>
                     <g transform="matrix(1,0,0,2.05978,209.973,645.573)">
@@ -516,12 +534,13 @@
                             <text x="-31.5px" y="0px" style="font-family:'TimesNewRomanPSMT', 'Times New Roman', serif;font-size:14px;">£6.50</text>
                         </g>
                         <g transform="matrix(0.12,0,0,0.12,445.451,645.529)">
-                            <g transform="matrix(66.6667,0,0,66.6667,1750.13,0)">
+                            <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">S<tspan x="33px 62.257px 87.867px 117.124px 146.38px 179.38px 195.714px 239.846px 258.035px 276.224px 309.224px 325.557px 358.557px 374.891px 400.501px 429.758px 462.758px 495.758px 528.758px 545.091px 574.348px 607.348px 640.348px 658.536px 676.725px 694.914px 727.914px 744.247px 762.436px 791.693px 820.949px 837.283px 866.539px 889.676px 918.932px 951.932px 999.743px 1016.08px 1045.33px 1078.33px 1126.14px 1155.4px 1181.01px 1197.35px 1241.48px 1259.67px 1277.86px 1310.86px 1327.19px 1352.8px 1385.8px 1403.99px 1422.18px 1451.43px 1484.43px 1500.77px 1530.02px 1563.02px 1588.63px 1621.63px 1669.44px 1698.7px 1716.89px 1733.22px 1758.84px 1791.84px 1824.84px 1854.09px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">erved with 1 scoop vanilla ice cream comes with salted caramel sauce</tspan></text>
+                            <g transform="matrix(66.6667,0,0,66.6667,538.271,69.4987)">
                             </g>
-                            <text x="0px" y="0px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">S<tspan x="33px 62.257px 87.867px 117.124px 146.38px 179.38px 195.714px 239.846px 258.035px 276.224px 309.224px 325.557px 358.557px 374.891px 400.501px 429.758px 462.758px 495.758px 528.758px 545.091px 574.348px 607.348px 640.348px 658.536px 676.725px 694.914px 727.914px 744.247px 762.436px 791.693px 820.949px 837.283px 866.539px 889.676px 918.932px 951.932px 999.743px 1016.08px 1045.33px 1078.33px 1126.14px 1155.4px 1181.01px 1197.35px 1241.48px 1259.67px 1277.86px 1310.86px 1327.19px 1356.44px 1389.44px 1422.44px 1451.7px 1484.7px 1502.89px 1535.89px 1554.08px 1583.34px 1599.67px 1625.28px 1658.28px 1691.28px 1720.54px " y="0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px ">erved with 1 scoop vanilla ice cream comes with chocolate sauce</tspan></text>
+                            <text x="0px" y="69.499px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:66.667px;">a<tspan x="33px 66px 99px 115.333px 144.59px 177.59px 210.59px 239.846px 272.846px 291.035px 324.035px 342.224px 371.48px 387.814px 413.424px 446.424px 479.424px 508.681px " y="69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px 69.499px ">nd chocolate sauce</tspan></text>
                         </g>
                     </g>
-                    <g transform="matrix(0.449009,0,0,0.449009,500.141,659.392)">
+                    <g transform="matrix(0.449009,0,0,0.449009,502.369,668.819)">
                         <g transform="matrix(20.0441,0,0,20.0441,194.268,0)">
                         </g>
                         <g transform="matrix(20.0441,0,0,20.0441,199.782,0)">
